@@ -37,10 +37,10 @@ function Home() {
 
   useEffect(() => {
     load()
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+
   }, [categoryId])
 
-  const API_KEY = 'AIzaSyDLJCiB55monK9yAkvBEvcX4CjUMVNKRcg'
+  const API_KEY = 'AIzaSyDLt1IFV31ZRQN5F7f39BmdCcFn2MuVY3E'
 
   const url = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet&part=statistics&chart=mostPopular&hl=pt_BR&maxResults=48&regionCode=br&videoCategoryId=${categoryId}&key=${API_KEY}`
 

@@ -10,7 +10,7 @@ import Login from "./pages/login/login";
 import YourVideos from "./pages/your-videos/your-videos";
 import SearchPage from "./pages/search/searchPage";
 import SignUp from './pages/sign-up/sign-up';
- 
+
 function App() {
 
   
